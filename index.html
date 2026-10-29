@@ -12,7 +12,7 @@
   <meta property="og:title" content="Abhishek Zirange | Lead AI/ML Engineer & Data Scientist">
   <meta property="og:description" content="Building Intelligent Systems with Data, Machine Learning & Generative AI. 8+ years shipping enterprise AI and analytics platforms.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="./assets/abhishek-zirange-profile.jpg?v=20261029">
+  <meta property="og:image" content="./assets/abhishek-zirange-profile.jpg?v=20261029-rev5">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
@@ -23,7 +23,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="./styles.css">
+  <!-- Cache Invalidation Directives -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./styles.css?v=20261029-rev5">
 </head>
 <body>
 
@@ -209,7 +215,7 @@
               <div class="project-block">
                 <span class="project-block-label">My Role &amp; Technical Architecture</span>
                 <p class="project-block-text">
-                  Architected the end-to-end platform on <strong>Databricks with LangGraph multi-agent orchestration</strong>. Implemented a 4-node cyclic state machine: DataGatekeeper &rarr; Modeler &rarr; Econometric Guardrail &rarr; Auto-Tuner. Coupled <strong>Ridge Regression with Non-Negative Least Squares (NNLS)</strong> to resolve severe collinearity ($VIF &gt; 10$) and prevent negative coefficients, parameterized with Weibull Adstock and Hill Saturation curves.
+                  Architected the end-to-end platform on <strong>Databricks with LangGraph multi-agent orchestration</strong>. Implemented a 4-node cyclic state machine: DataGatekeeper &rarr; Modeler &rarr; Econometric Guardrail &rarr; Auto-Tuner. Coupled <strong>Ridge Regression with Non-Negative Least Squares (NNLS)</strong> to resolve severe collinearity (VIF &gt; 10) and prevent negative coefficients, parameterized with Weibull Adstock and Hill Saturation curves.
                 </p>
               </div>
 
@@ -301,7 +307,7 @@
               <div class="project-block">
                 <span class="project-block-label">Technical Architecture</span>
                 <p class="project-block-text">
-                  Built an encoder-decoder network with a <strong>ResNet-50 backbone</strong> utilizing residual identity gradient flow ($\mathbf{I}$). Trained with <strong>reverse Huber (BerHu) loss</strong> to balance small residual gradients against heavy depth boundary edges.
+                  Built an encoder-decoder network with a <strong>ResNet-50 backbone</strong> utilizing residual identity gradient flow (identity skip connections). Trained with <strong>reverse Huber (BerHu) loss</strong> to balance small residual gradients against heavy depth boundary edges.
                 </p>
               </div>
 
@@ -461,7 +467,7 @@
       </div>
     </section>
 
-    <!-- Professional Experience Timeline -->
+        <!-- Professional Experience Timeline -->
     <section class="section" id="experience">
       <div class="container">
         <div class="section-header">
@@ -477,95 +483,184 @@
           <!-- ROLE 1: TENARAI (Fortune 50) -->
           <article class="experience-card">
             <div class="exp-header">
-              <div>
-                <h3 class="exp-role-title">Lead AI/ML Engineer &amp; Analytics Consultant</h3>
-                <div class="exp-company-line">
-                  <span class="exp-company">TENARAI</span>
-                  <span>·</span>
-                  <span class="exp-location">Fortune 50 Global Retailer Engagement · Pune / Remote</span>
+              <div class="exp-brand-cluster">
+                <div class="exp-emblem" aria-hidden="true">TN</div>
+                <div class="exp-titles">
+                  <div class="exp-role-badge">Lead Position</div>
+                  <h3 class="exp-role-title">Lead AI/ML Engineer &amp; Analytics Consultant</h3>
+                  <div class="exp-company-line">
+                    <span class="exp-company">TENARAI</span>
+                    <span class="exp-sep">·</span>
+                    <span class="exp-client">Fortune 50 Global Retailer Engagement</span>
+                    <span class="exp-sep">·</span>
+                    <span class="exp-location">Pune / Remote</span>
+                  </div>
                 </div>
               </div>
-              <div class="exp-date-badge">Jan 2025 – Present</div>
+              <div class="exp-date-pill active">
+                <span class="live-dot"></span>
+                <span>Jan 2025 – Present · Current Engagement</span>
+              </div>
             </div>
 
-            <ul class="exp-bullets">
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Architected an end-to-end autonomous Marketing Mix Modeling (MMM) engine covering data ingestion, feature engineering, model training, validation, results, and a business-facing scenario planner.</span>
-              </li>
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Migrated manual data science tuning workflows to multi-agent LangGraph loops on Databricks, enabling weekly refreshed attribution across 15+ media channels.</span>
-              </li>
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Optimized PySpark ETL pipelines from raw CSV to columnar Parquet with Snappy compression, cutting data processing time by more than 40% and saving 60.9% disk storage.</span>
-              </li>
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Engineered automated pre-modeling quality gates and post-modeling econometric guardrails (VIF, Durbin-Watson, Non-Negative Least Squares bounds), reducing reporting inconsistencies by over 25%.</span>
-              </li>
-            </ul>
+            <div class="exp-body">
+              <ul class="exp-bullets">
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Autonomous MMM Architecture:</strong> Architected an end-to-end autonomous Marketing Mix Modeling (MMM) engine covering data ingestion, feature engineering, model training, validation, results, and a business-facing scenario planner.</span>
+                </li>
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Multi-Agent LangGraph Loops:</strong> Migrated manual data science tuning workflows to multi-agent LangGraph loops on Databricks, enabling weekly refreshed attribution across 15+ media channels.</span>
+                </li>
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Distributed PySpark Optimization:</strong> Optimized PySpark ETL pipelines from raw CSV to columnar Parquet with Snappy compression, cutting data processing time by more than 40% and saving 60.9% disk storage.</span>
+                </li>
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Econometric Guardrails &amp; Quality Gates:</strong> Engineered automated pre-modeling quality gates and post-modeling econometric guardrails (VIF, Durbin-Watson, Non-Negative Least Squares bounds), reducing reporting inconsistencies by over 25%.</span>
+                </li>
+              </ul>
+
+              <div class="exp-footer-tags">
+                <span class="exp-tag-label">Tech Stack:</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">LangGraph</span>
+                  <span class="tech-tag">Databricks</span>
+                  <span class="tech-tag">PySpark</span>
+                  <span class="tech-tag">Ridge / NNLS</span>
+                  <span class="tech-tag">Weibull Adstock</span>
+                  <span class="tech-tag">Hill Curves</span>
+                  <span class="tech-tag">FastAPI</span>
+                  <span class="tech-tag">React.js</span>
+                </div>
+              </div>
+            </div>
           </article>
 
           <!-- ROLE 2: TENARAI (Telecom & Vision) -->
           <article class="experience-card">
             <div class="exp-header">
-              <div>
-                <h3 class="exp-role-title">Consultant – Data Science &amp; Development</h3>
-                <div class="exp-company-line">
-                  <span class="exp-company">TENARAI</span>
-                  <span>·</span>
-                  <span class="exp-location">South Africa &amp; Nigeria Telecom Operators · Emerging Markets</span>
+              <div class="exp-brand-cluster">
+                <div class="exp-emblem" aria-hidden="true">TN</div>
+                <div class="exp-titles">
+                  <div class="exp-role-badge">Consulting</div>
+                  <h3 class="exp-role-title">Consultant – Data Science &amp; Development</h3>
+                  <div class="exp-company-line">
+                    <span class="exp-company">TENARAI</span>
+                    <span class="exp-sep">·</span>
+                    <span class="exp-client">South Africa &amp; Nigeria Telecom Operators</span>
+                    <span class="exp-sep">·</span>
+                    <span class="exp-location">Emerging Markets</span>
+                  </div>
                 </div>
               </div>
-              <div class="exp-date-badge">Jul 2022 – Jan 2025</div>
+              <div class="exp-date-pill">
+                <span>Jul 2022 – Jan 2025 · 2.5 yrs</span>
+              </div>
             </div>
 
-            <ul class="exp-bullets">
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Delivered end-to-end data science solutions for telecom operators across the Get-Grow-Keep framework, enabling subscriber segmentation, churn prevention, upsell identification, and next-best-action recommendations.</span>
-              </li>
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Engineered deep learning computer vision pipelines for monocular depth estimation using ResNet-50 and reverse Huber (BerHu) loss.</span>
-              </li>
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Owned data preparation, feature engineering, distributed PySpark modeling, model deployment, and production support end-to-end.</span>
-              </li>
-            </ul>
+            <div class="exp-body">
+              <ul class="exp-bullets">
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Get-Grow-Keep Lifecycle Intelligence:</strong> Delivered end-to-end data science solutions for telecom operators across subscriber segmentation, churn prevention, upsell identification, and next-best-action recommendations.</span>
+                </li>
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Deep Learning Monocular Depth:</strong> Engineered deep learning computer vision pipelines for monocular depth estimation using ResNet-50 and reverse Huber (BerHu) loss.</span>
+                </li>
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>End-to-End MLOps &amp; PySpark:</strong> Owned data preparation, feature engineering, distributed PySpark modeling, model deployment, and production support end-to-end.</span>
+                </li>
+              </ul>
+
+              <div class="exp-footer-tags">
+                <span class="exp-tag-label">Tech Stack:</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">PySpark</span>
+                  <span class="tech-tag">LightGBM</span>
+                  <span class="tech-tag">XGBoost</span>
+                  <span class="tech-tag">ResNet-50</span>
+                  <span class="tech-tag">BerHu Loss</span>
+                  <span class="tech-tag">Hive</span>
+                  <span class="tech-tag">Docker</span>
+                </div>
+              </div>
+            </div>
           </article>
 
           <!-- ROLE 3: DIGITAMIZE (OCR & Computer Vision) -->
           <article class="experience-card">
             <div class="exp-header">
-              <div>
-                <h3 class="exp-role-title">Product Engineer — AI &amp; Machine Learning Systems</h3>
-                <div class="exp-company-line">
-                  <span class="exp-company">DIGITAMIZE INNOVATIONS (TECHFORCE.AI)</span>
-                  <span>·</span>
-                  <span class="exp-location">Mumbai / Remote</span>
+              <div class="exp-brand-cluster">
+                <div class="exp-emblem" aria-hidden="true">DG</div>
+                <div class="exp-titles">
+                  <div class="exp-role-badge">Core Engineering</div>
+                  <h3 class="exp-role-title">Product Engineer — AI &amp; Machine Learning Systems</h3>
+                  <div class="exp-company-line">
+                    <span class="exp-company">DIGITAMIZE INNOVATIONS (TECHFORCE.AI)</span>
+                    <span class="exp-sep">·</span>
+                    <span class="exp-location">Mumbai / Remote</span>
+                  </div>
                 </div>
               </div>
-              <div class="exp-date-badge">Dec 2018 – Jul 2022</div>
+              <div class="exp-date-pill">
+                <span>Dec 2018 – Jul 2022 · 3.5 yrs</span>
+              </div>
             </div>
 
-            <ul class="exp-bullets">
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Architected a scalable low-code OCR platform enabling non-technical enterprise users to train, retrain, and deploy custom document-extraction models through an intuitive UI.</span>
-              </li>
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Implemented asynchronous task processing with Celery Chords and containerized Docker deployments, achieving 99.9% uptime and zero queue starvation across AWS S3 and GCP.</span>
-              </li>
-              <li class="exp-bullet-item">
-                <span class="exp-bullet-icon">▹</span>
-                <span>Designed computer vision authentication systems using YOLOv4 object detection for signature localization and Siamese Networks for one-shot similarity verification.</span>
-              </li>
-            </ul>
+            <div class="exp-body">
+              <ul class="exp-bullets">
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Low-Code Enterprise OCR Platform:</strong> Architected a scalable low-code OCR platform enabling non-technical enterprise users to train, retrain, and deploy custom document-extraction models through an intuitive UI.</span>
+                </li>
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Distributed Celery Chords Engine:</strong> Implemented asynchronous task processing with Celery Chords and containerized Docker deployments, achieving 99.9% uptime and zero queue starvation across AWS S3 and GCP.</span>
+                </li>
+                <li class="exp-bullet-item">
+                  <span class="exp-bullet-icon">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>Metric Learning &amp; Computer Vision:</strong> Designed computer vision authentication systems using YOLOv4 object detection for signature localization and Siamese Networks for one-shot similarity verification.</span>
+                </li>
+              </ul>
+
+              <div class="exp-footer-tags">
+                <span class="exp-tag-label">Tech Stack:</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">Celery Chords</span>
+                  <span class="tech-tag">Redis SETNX</span>
+                  <span class="tech-tag">YOLOv4</span>
+                  <span class="tech-tag">Siamese Networks</span>
+                  <span class="tech-tag">OpenCV</span>
+                  <span class="tech-tag">Docker</span>
+                  <span class="tech-tag">AWS / GCP</span>
+                </div>
+              </div>
+            </div>
           </article>
 
         </div>
@@ -617,13 +712,13 @@
               <div class="vis-node">
                 <span class="vis-node-step">NODE 03</span>
                 <h4 class="vis-node-title">Econometric Guardrail</h4>
-                <p class="vis-node-desc">Evaluates VIF (&lt;5.0), Durbin-Watson (1.5–2.5), sign constraint ($\beta \ge 0$), and historical share drift.</p>
+                <p class="vis-node-desc">Evaluates VIF (&lt;5.0), Durbin-Watson (1.5–2.5), sign constraint (&beta; &ge; 0), and historical share drift.</p>
               </div>
               <div class="vis-arrow"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
               <div class="vis-node">
                 <span class="vis-node-step">NODE 04</span>
                 <h4 class="vis-node-title">ParameterTuningNode</h4>
-                <p class="vis-node-desc">Autonomous reasoning loop adjusts Ridge $\lambda$ &amp; adstock bounds. Escalate if &gt;5 iterations.</p>
+                <p class="vis-node-desc">Autonomous reasoning loop adjusts Ridge regularization &lambda; &amp; adstock decay bounds. Escalate if &gt;5 iterations.</p>
               </div>
             </div>
             <div class="vis-footer">
@@ -691,7 +786,7 @@
               <div class="vis-node">
                 <span class="vis-node-step">STAGE 04</span>
                 <h4 class="vis-node-title">1-Shot Distance Gate</h4>
-                <p class="vis-node-desc">Computes Euclidean distance $d(z_1, z_2) &lt; \tau$. If below threshold, instant account approval.</p>
+                <p class="vis-node-desc">Computes Euclidean distance d(z₁, z₂) &lt; &tau;. If below threshold, instant account approval.</p>
               </div>
             </div>
             <div class="vis-footer">
@@ -725,16 +820,16 @@
               <span class="category-pill">Core</span>
             </div>
             <div class="skills-pill-cloud">
-              <span class="skill-pill-item">Marketing Mix Modeling (MMM)</span>
-              <span class="skill-pill-item">Econometric Theory</span>
-              <span class="skill-pill-item">Geometric / Weibull Adstock</span>
-              <span class="skill-pill-item">Hill Saturation Curves</span>
-              <span class="skill-pill-item">Ridge &amp; OLS Regression</span>
-              <span class="skill-pill-item">Non-Negative Least Squares (NNLS)</span>
-              <span class="skill-pill-item">Variance Inflation Factor (VIF)</span>
-              <span class="skill-pill-item">Durbin-Watson Autocorrelation</span>
-              <span class="skill-pill-item">Marginal ROI Optimization</span>
-              <span class="skill-pill-item">Hypothesis Testing &amp; A/B Testing</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Marketing Mix Modeling (MMM)</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Econometric Theory</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Geometric / Weibull Adstock</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Hill Saturation Curves</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Ridge &amp; OLS Regression</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Non-Negative Least Squares (NNLS)</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Variance Inflation Factor (VIF)</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Durbin-Watson Autocorrelation</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Marginal ROI Optimization</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Hypothesis Testing &amp; A/B Testing</span>
             </div>
           </div>
 
@@ -745,16 +840,16 @@
               <span class="category-pill">Production</span>
             </div>
             <div class="skills-pill-cloud">
-              <span class="skill-pill-item">LightGBM &amp; XGBoost</span>
-              <span class="skill-pill-item">Scikit-Learn</span>
-              <span class="skill-pill-item">MultiOutputRegressor</span>
-              <span class="skill-pill-item">ResNet-50</span>
-              <span class="skill-pill-item">YOLOv4 Object Detection</span>
-              <span class="skill-pill-item">Siamese Networks</span>
-              <span class="skill-pill-item">Contrastive &amp; Triplet Loss</span>
-              <span class="skill-pill-item">Isolation Forest Anomaly Detection</span>
-              <span class="skill-pill-item">OpenCV &amp; Deep Learning</span>
-              <span class="skill-pill-item">PyTorch</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>LightGBM &amp; XGBoost</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Scikit-Learn</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>MultiOutputRegressor</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>ResNet-50</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>YOLOv4 Object Detection</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Siamese Networks</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Contrastive &amp; Triplet Loss</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Isolation Forest Anomaly Detection</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>OpenCV &amp; Deep Learning</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>PyTorch</span>
             </div>
           </div>
 
@@ -765,14 +860,14 @@
               <span class="category-pill">Agentic</span>
             </div>
             <div class="skills-pill-cloud">
-              <span class="skill-pill-item">LangGraph Multi-Agent Loops</span>
-              <span class="skill-pill-item">Autonomous StateGraphs</span>
-              <span class="skill-pill-item">OpenAI API</span>
-              <span class="skill-pill-item">Structured JSON Outputs</span>
-              <span class="skill-pill-item">ChromaDB Vector Database</span>
-              <span class="skill-pill-item">Hybrid RAG &amp; Vector Embeddings</span>
-              <span class="skill-pill-item">Prompt Engineering</span>
-              <span class="skill-pill-item">Automated Guardrail Loops</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>LangGraph Multi-Agent Loops</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Autonomous StateGraphs</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>OpenAI API</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Structured JSON Outputs</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>ChromaDB Vector Database</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Hybrid RAG &amp; Vector Embeddings</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Prompt Engineering</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Automated Guardrail Loops</span>
             </div>
           </div>
 
@@ -783,15 +878,15 @@
               <span class="category-pill">Distributed</span>
             </div>
             <div class="skills-pill-cloud">
-              <span class="skill-pill-item">PySpark &amp; Apache Spark</span>
-              <span class="skill-pill-item">Databricks Lakehouse</span>
-              <span class="skill-pill-item">Delta Lake / Parquet Optimization</span>
-              <span class="skill-pill-item">Predicate Pushdown</span>
-              <span class="skill-pill-item">Projection Pruning</span>
-              <span class="skill-pill-item">Snappy Binary Compression</span>
-              <span class="skill-pill-item">Data Skew Salting</span>
-              <span class="skill-pill-item">Broadcast Joins</span>
-              <span class="skill-pill-item">Hive &amp; Spark SQL</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>PySpark &amp; Apache Spark</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Databricks Lakehouse</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Delta Lake / Parquet Optimization</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Predicate Pushdown</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Projection Pruning</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Snappy Binary Compression</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Data Skew Salting</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Broadcast Joins</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Hive &amp; Spark SQL</span>
             </div>
           </div>
 
@@ -802,12 +897,12 @@
               <span class="category-pill">Cloud</span>
             </div>
             <div class="skills-pill-cloud">
-              <span class="skill-pill-item">Databricks Platform</span>
-              <span class="skill-pill-item">AWS (S3, EC2)</span>
-              <span class="skill-pill-item">Google Cloud Platform (GCP)</span>
-              <span class="skill-pill-item">Compute Engine &amp; Cloud Storage</span>
-              <span class="skill-pill-item">MLflow Experiment Tracking</span>
-              <span class="skill-pill-item">DBFS Cloud Storage</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Databricks Platform</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>AWS (S3, EC2)</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Google Cloud Platform (GCP)</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Compute Engine &amp; Cloud Storage</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>MLflow Experiment Tracking</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>DBFS Cloud Storage</span>
             </div>
           </div>
 
@@ -818,32 +913,54 @@
               <span class="category-pill">Systems</span>
             </div>
             <div class="skills-pill-cloud">
-              <span class="skill-pill-item">Python</span>
-              <span class="skill-pill-item">FastAPI REST APIs</span>
-              <span class="skill-pill-item">Django</span>
-              <span class="skill-pill-item">Celery Asynchronous Tasks</span>
-              <span class="skill-pill-item">Celery Chords (Map-Reduce)</span>
-              <span class="skill-pill-item">Redis Distributed Locks (SETNX)</span>
-              <span class="skill-pill-item">Worker Memory Recycling</span>
-              <span class="skill-pill-item">Node.js &amp; React.js</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Python</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>FastAPI REST APIs</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Django</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Celery Asynchronous Tasks</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Celery Chords (Map-Reduce)</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Redis Distributed Locks (SETNX)</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Worker Memory Recycling</span>
+              <span class="skill-pill-item"><span class="pill-dot"></span>Node.js &amp; React.js</span>
             </div>
           </div>
 
           <!-- 7. Databases, APIs & Deployment -->
-          <div class="skill-category-card" style="grid-column: span 3;">
+          <div class="skill-category-card skill-card-wide" style="grid-column: span 3;">
             <div class="category-header">
-              <h3 class="category-title">Databases, APIs &amp; Deployment</h3>
+              <div class="category-title-wrap">
+                <h3 class="category-title">Databases, API Architecture &amp; Production Infrastructure</h3>
+                <span class="category-subtitle">Full-lifecycle data persistence, robust API contracts, and containerized deployment pipelines</span>
+              </div>
               <span class="category-pill">Infrastructure</span>
             </div>
-            <div class="skills-pill-cloud">
-              <span class="skill-pill-item">PostgreSQL</span>
-              <span class="skill-pill-item">ChromaDB</span>
-              <span class="skill-pill-item">SQLite</span>
-              <span class="skill-pill-item">Hive</span>
-              <span class="skill-pill-item">RESTful API Design</span>
-              <span class="skill-pill-item">Docker Containerization</span>
-              <span class="skill-pill-item">CI/CD Automation</span>
-              <span class="skill-pill-item">Git &amp; GitHub Version Control</span>
+            <div class="category-subgroups-grid">
+              <div class="subgroup-col">
+                <span class="subgroup-heading">Relational &amp; Vector Databases</span>
+                <div class="skills-pill-cloud">
+                  <span class="skill-pill-item"><span class="pill-dot"></span>PostgreSQL</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>ChromaDB Vector Store</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>SQLite</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>Hive Metastore</span>
+                </div>
+              </div>
+              <div class="subgroup-col">
+                <span class="subgroup-heading">API &amp; Distributed Architecture</span>
+                <div class="skills-pill-cloud">
+                  <span class="skill-pill-item"><span class="pill-dot"></span>FastAPI REST Endpoints</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>Pydantic Schema Validation</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>Redis Distributed Locks (SETNX)</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>Celery Asynchronous Tasks</span>
+                </div>
+              </div>
+              <div class="subgroup-col">
+                <span class="subgroup-heading">DevOps &amp; Cloud Deployment</span>
+                <div class="skills-pill-cloud">
+                  <span class="skill-pill-item"><span class="pill-dot"></span>Docker Containerization</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>GitHub Actions CI/CD</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>AWS EC2 / S3 Storage</span>
+                  <span class="skill-pill-item"><span class="pill-dot"></span>Git &amp; Version Control</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -1002,6 +1119,6 @@
   </div>
 
   <!-- Interactive JavaScript Controller -->
-  <script src="./app.js"></script>
+  <script src="./app.js?v=20261029-rev5" defer></script>
 </body>
 </html>
