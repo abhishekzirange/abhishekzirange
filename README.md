@@ -43,8 +43,8 @@ Data Scientist and AI/ML Engineer with **8+ years of production experience** bri
 ### 🚀 Production Enterprise Highlights
 
 - **Fortune 50 Autonomous Retail MMM**: Designed autonomous 4-node decision loop (Gatekeeper &rarr; Modeler &rarr; Econometric Guardrails &rarr; Auto-Tuning) governing media budget allocation across retail marketing channels.
-- **[Payora — Enterprise Finance & Collection Platform](https://github.com/wethiink/payora)**: Multi-platform (Flutter, Hive, Supabase PostgreSQL) cooperative credit finance system with 85 stored procedures, real-time double-entry general ledger, offline-first sync, and QR hardware pairing.
-- **[MarkIn — Geofenced & Biometric Attendance System](https://github.com/wethiink/MarkIN)**: Secure on-device biometric verification platform with Google ML Kit blink liveness detection, anti-spoof GPS geofencing, hardware device binding (`android_id`), and offline SQLite queueing.
+- **Payora Enterprise Finance & Collection Platform**: Multi-platform (Flutter, Hive, Supabase PostgreSQL) cooperative credit finance system with 85 stored procedures, real-time double-entry general ledger, offline-first sync, and QR hardware pairing.
+- **MarkIn Geofenced & Biometric Attendance System**: Secure on-device biometric verification platform with Google ML Kit blink liveness detection, anti-spoof GPS geofencing, hardware device binding (`android_id`), and offline SQLite queueing.
 - **Enterprise Asynchronous Processing**: Engineered fair-share task distribution (`prefetch_multiplier=1`, worker recycling, idempotent Redis locks) processing high-volume document verification pipelines.
 - **Interactive Portfolio**: Discover full case studies, architecture diagrams, and interactive visualizers at **[abhishekzirange.github.io/abhishekzirange/](https://abhishekzirange.github.io/abhishekzirange/)**.
 
