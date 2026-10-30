@@ -1,138 +1,53 @@
-# ⚡ Abhishek Zirange — Lead AI/ML & Product Engineer Portfolio
+<div align="center">
 
-> **Production-Grade Personal Portfolio modeled on [kevingarda.dev](https://kevingarda.dev/)**  
-> Tailored for **Abhishek Zirange** (8+ Years Experience in Agentic AI, Fortune 50 Marketing Mix Modeling, PySpark, and Computer Vision).  
-> **100% Free Hosting on GitHub Pages** with zero external runtime dependencies.
+  <img src="https://raw.githubusercontent.com/abhishekzirange/abhishekzirange/main/assets/abhishek-zirange-profile.jpg" alt="Abhishek Zirange" width="160" height="160" style="border-radius: 50%; object-fit: cover; border: 3px solid #06b6d4;" />
 
----
+  # Abhishek Zirange
+  ### Lead AI/ML Engineer & Data Scientist · Distributed Systems Architect
 
-## 🌟 Key Features & Design Highlights
+  [![Portfolio](https://img.shields.io/badge/Live_Portfolio-06B6D4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://abhishekzirange.github.io/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-zirange-41a001a4/)
+  [![Email](https://img.shields.io/badge/Email-abhishekzirange%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhishekzirange@gmail.com)
+  [![Resume](https://img.shields.io/badge/Master_Resume-PDF-4F46E5?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://raw.githubusercontent.com/abhishekzirange/abhishekzirange/main/assets/Abhishek_Zirange.pdf)
 
-1. **Obsidian Space Glassmorphic Design:**
-   - Deep obsidian theme (`#06080d`) with floating ambient radial glow orbs and subtle grid overlay.
-   - Frosted glass cards (`backdrop-filter: blur(16px)`) with glowing cyan/indigo border micro-interactions.
-   - Professional studio portrait asset generated and embedded in the Hero card.
+  <p><strong>Pune, India</strong> · Open to Lead AI/ML Engineer & ML Platform Architect Roles (Remote, Hybrid, or Relocation)</p>
 
-2. **Kevin Garda Signature UX Pattern — Roles & Nested Case Studies:**
-   - **Expandable Accordion Cards:** Click any case study to reveal **The Challenge**, **The AI Architecture**, and **Measured Impact**.
-   - **Interactive Domain Filter Toolbar:** Filter across `Agentic AI & LLMs`, `Marketing Mix Modeling (MMM)`, `Big Data & PySpark`, `Computer Vision & OCR`, `Telecom Analytics`, and `Distributed Systems`. Roles dynamically filter with real-time counters.
-
-3. **Interactive Live System Architecture Visualizer:**
-   - Tab 1: **Fortune 50 Agentic MMM Decision Loop** (LangGraph StateGraph: Gatekeeper &rarr; Modeler &rarr; Econometric Guardrails &rarr; Auto-Tuning).
-   - Tab 2: **Distributed Celery Chords Engine** (Fair-share `prefetch_multiplier=1`, worker recycling, Redis locks).
-   - Tab 3: **One-Shot Siamese Signature Verification Pipeline** (YOLOv4 Localization &rarr; Twin CNN &rarr; 128-D Euclidean metric space).
-
-4. **Technical Depth & Domain Matrix:**
-   - Categorized matrix showing hands-on production years and proficiency levels across all core enterprise domains.
-
-5. **Direct Connect & 1-Click Clipboard Utilities:**
-   - 1-click email copy with animated toast notifications.
-   - Direct download link to master resume (`./assets/Abhishek_Zirange.pdf`).
-   - Quick inquiry email composer with automated mailto formatting.
+</div>
 
 ---
 
-## 🚀 How to Run Locally
+### 👨‍💻 Executive Summary
 
-You can run this portfolio locally without any installation or build step:
+Data Scientist and AI/ML Engineer with **8+ years of production experience** bridging econometric theory, agentic AI workflows, and distributed systems to build high-stakes enterprise applications.
 
-### Option A: Direct Browser Opening
-Simply double-click `portfolio/index.html` in your file explorer, or right-click and choose **Open with Browser (Chrome/Edge/Firefox)**.
-
-### Option B: Local Dev Server
-If you want to run it on a local HTTP server:
-```bash
-# Using Node / npx:
-npx serve portfolio
-
-# Or using Python:
-python -m http.server 8000 --directory portfolio
-```
-Then visit `http://localhost:8000` or `http://localhost:3000`.
+- 🤖 **Agentic AI & LLMs**: Architected an autonomous multi-agent decision loop (LangGraph, ChromaDB, Hybrid RRF) for **Fortune 50 Marketing Mix Modeling (MMM)** on Databricks, cutting quarterly model iteration time from 3 weeks to under 4 hours.
+- ⚡ **Distributed Systems**: Built high-throughput Celery canvas architectures (chain, group, chord) with Redis distributed locks handling millions of automated document processing and verification tasks.
+- 📊 **Big Data & Cloud**: Scaled PySpark ETL pipelines on Databricks with Parquet optimization (60.9% storage saved) and salted joins to eliminate data skew bottlenecks.
+- 👁️ **Computer Vision & OCR**: Production deployment of Siamese neural networks with Contrastive/Triplet loss for signature verification and ResNet-50 depth estimation pipelines.
 
 ---
 
-## 🌐 How to Host for FREE on GitHub Pages (60 Seconds)
+### 🛠️ Technical Stack & Expertise
 
-GitHub Pages provides **100% free hosting** with automatic global CDN and free HTTPS/SSL certificates. You have two easy ways to publish:
-
-### Method 1: Dedicated Portfolio URL (Recommended)
-This gives you the clean domain `https://<your-username>.github.io/`:
-
-1. On GitHub, create a brand-new public repository named exactly:
-   ```text
-   <your-github-username>.github.io
-   ```
-   *(For example: `abhishekzirange.github.io`)*
-
-2. Open your terminal inside this `portfolio` folder and push the code:
-   ```bash
-   cd "c:\Users\Abhishek\Documents\Abhishek\Interview Preparation\portfolio"
-   git init
-   git add .
-   git commit -m "Initial release of Abhishek Zirange portfolio"
-   git branch -M main
-   git remote add origin https://github.com/<your-github-username>/<your-github-username>.github.io.git
-   git push -u origin main
-   ```
-
-3. That's it! GitHub automatically deploys your site to `https://<your-github-username>.github.io/` within 60 seconds!
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Generative AI & Agents** | LangGraph, ChromaDB, Hybrid RAG (Dense + Sparse RRF), Prompt Engineering, Multi-Agent Teams |
+| **Machine Learning & Econometrics** | Marketing Mix Modeling (Hill Saturation, Geometric Adstock, Ridge NNLS), Scikit-Learn, XGBoost, Isolation Forest |
+| **Deep Learning & Computer Vision** | PyTorch, ResNet-50, YOLOv4, Siamese Metric Networks, Contrastive Loss, BerHu Loss |
+| **Big Data & Cloud Platforms** | Apache Spark, PySpark, Databricks, Delta Lake, Parquet Optimization, AWS |
+| **Distributed Systems & Backend** | Celery, Redis, FastAPI, Flask, Python 3, PostgreSQL, Docker |
+| **Data Science & Analytics** | Pandas, NumPy, SciPy, Matplotlib, Seaborn, Statsmodels, A/B Testing |
 
 ---
 
-### Method 2: Host from your Existing Repository (`Interview-Prep-Suite`)
-If you want to host it directly from this current repository:
+### 🚀 Production Enterprise Highlights
 
-1. Push your updated repository to GitHub:
-   ```bash
-   git add portfolio/
-   git commit -m "Add production portfolio for Abhishek Zirange"
-   git push origin main
-   ```
-
-2. On GitHub, go to your repository:
-   **Settings &rarr; Pages** (in the left sidebar).
-
-3. Under **Build and deployment**:
-   - **Source:** Choose **GitHub Actions** (the included `.github/workflows/deploy.yml` will handle the build automatically).
-   - Or choose **Deploy from a branch** &rarr; select `main` &rarr; folder `/portfolio` or `/docs`.
-
-4. Your site will be live at:
-   ```text
-   https://wethiink.github.io/Interview-Prep-Suite/portfolio/
-   ```
+- **Fortune 50 Autonomous Retail MMM**: Designed autonomous 4-node decision loop (Gatekeeper &rarr; Modeler &rarr; Econometric Guardrails &rarr; Auto-Tuning) governing media budget allocation across retail marketing channels.
+- **Enterprise Asynchronous Processing**: Engineered fair-share task distribution (`prefetch_multiplier=1`, worker recycling, idempotent Redis locks) processing high-volume document verification pipelines.
+- **Interactive Portfolio**: Discover full case studies, architecture diagrams, and interactive visualizers at **[abhishekzirange.github.io](https://abhishekzirange.github.io/)**.
 
 ---
 
-### Method 3: Using a Custom Domain (e.g. `abhishekzirange.dev`)
-1. Buy your domain on Namecheap, Cloudflare, or GoDaddy.
-2. In your GitHub repository **Settings &rarr; Pages**, enter your custom domain (e.g. `abhishekzirange.dev`).
-3. Point your DNS records (CNAME or A records `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) to `<your-username>.github.io`.
-4. Check **Enforce HTTPS**. GitHub will issue a free SSL certificate automatically!
-
----
-
-## 📁 Project Structure
-
-```text
-portfolio/
-├── index.html                 # Semantic HTML5 architecture & structured SEO metadata
-├── styles.css                 # Obsidian dark design system, glassmorphism, responsive grid
-├── app.js                     # Zero-dependency vanilla JS (filtering, accordions, copy-to-clipboard, tabs)
-├── favicon.svg                # Modern electric AZ monogram SVG icon
-├── README.md                  # Documentation & GitHub Pages deployment guide
-├── assets/
-│   ├── avatar.jpg             # High-resolution generated studio portrait of Abhishek
-│   └── Abhishek_Zirange.pdf   # Master resume for 1-click download & preview
-└── .github/
-    └── workflows/
-        └── deploy.yml         # Automated GitHub Actions workflow for GitHub Pages CI/CD
-```
-
----
-
-## 🛠️ Customization Guide
-
-- **Update LinkedIn / GitHub links:** Search for `linkedin.com` or `github.com` in `index.html` and replace with your profile URLs.
-- **Add a new case study:** Duplicate any `<div class="case-study-item">` block in `index.html`, set the matching `data-domains="..."` tags, and fill in the 3 pillars (Challenge, Architecture, Impact).
-- **Edit contact details:** Search for `abhishekzirange@gmail.com` or `+919175438085` in `index.html` to update phone, email, or location.
+<div align="center">
+  <sub>© 2026 Abhishek Zirange · Built for high reliability & production performance</sub>
+</div>
