@@ -5,7 +5,7 @@
   # Abhishek Zirange
   ### Lead AI/ML Engineer & Data Scientist · Distributed Systems Architect
 
-  [![Portfolio](https://img.shields.io/badge/Live_Portfolio-06B6D4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://abhishekzirange.github.io/)
+  [![Portfolio](https://img.shields.io/badge/Live_Portfolio-06B6D4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://abhishekzirange.github.io/abhishekzirange/)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-zirange-41a001a4/)
   [![Email](https://img.shields.io/badge/Email-abhishekzirange%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhishekzirange@gmail.com)
   [![Resume](https://img.shields.io/badge/Master_Resume-PDF-4F46E5?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://raw.githubusercontent.com/abhishekzirange/abhishekzirange/main/assets/Abhishek_Zirange.pdf)
@@ -44,7 +44,7 @@ Data Scientist and AI/ML Engineer with **8+ years of production experience** bri
 
 - **Fortune 50 Autonomous Retail MMM**: Designed autonomous 4-node decision loop (Gatekeeper &rarr; Modeler &rarr; Econometric Guardrails &rarr; Auto-Tuning) governing media budget allocation across retail marketing channels.
 - **Enterprise Asynchronous Processing**: Engineered fair-share task distribution (`prefetch_multiplier=1`, worker recycling, idempotent Redis locks) processing high-volume document verification pipelines.
-- **Interactive Portfolio**: Discover full case studies, architecture diagrams, and interactive visualizers at **[abhishekzirange.github.io](https://abhishekzirange.github.io/)**.
+- **Interactive Portfolio**: Discover full case studies, architecture diagrams, and interactive visualizers at **[abhishekzirange.github.io/abhishekzirange/](https://abhishekzirange.github.io/abhishekzirange/)**.
 
 ---
 
